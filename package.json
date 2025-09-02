@@ -1,15 +1,35 @@
 {
-  "name": "websocket-zw",
-  "version": "1.0.0",
-  "description": "websocket",
+  "name": "websocket-fruge365",
+  "version": "1.0.6",
+  "description": "一个简单易用的WebSocket客户端库，支持自动重连、错误处理和消息管理",
   "main": "index.js",
+  "module": "index.js",
+  "type": "module",
+  "files": [
+    "index.js",
+    "socket.js",
+    "README.md",
+    "types.d.ts"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "websocket",
-    "socket"
+    "socket",
+    "realtime",
+    "client",
+    "reconnect",
+    "javascript",
+    "browser",
+    "nodejs"
   ],
   "author": "fruge365",
-  "license": "ISC"
+  "license": "MIT",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "dependencies": {
+    "ws": "^8.18.3"
+  }
 }
